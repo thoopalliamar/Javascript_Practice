@@ -15,4 +15,15 @@ console.log(alpha);
 //shift
 var shift = alpha.shift("a");
 console.log(alpha);
+//tostring
+var tstring = alpha.toString();
+console.log(tstring);
+//creation of arrays
+
+var x = [1,2,3];
+var y = Array(length=5);
+var z = new Array('a','v'); 
+console.log(x);
+console.log(y);
+console.log(z);
 
