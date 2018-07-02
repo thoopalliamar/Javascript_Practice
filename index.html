@@ -59,6 +59,43 @@ cars[x]="Mercedes";
 document.getElementById("demo4").innerHTML = cars;
 </script>
 <!-- ends here -->
+
+
+<!-- second excercise -->
+<p id="demo5"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple"];
+fruits.pop();
+document.getElementById("demo5").innerHTML = fruits;
+</script>
+
+<p id="demo6"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple"];
+
+fruits.push("kiwi");
+document.getElementById("demo6").innerHTML = fruits;
+</script>
+
+<p id="demo7"></p> 
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.splice(1,2);
+document.getElementById("demo7").innerHTML = fruits;
+</script>
+
+<p id="demo8"></p> 
+
+<script>
+var girls = ["Cecilie", "Lone"];
+var boys = ["Emil", "Tobias", "Linus"];
+var children = girls.concat(boys);
+document.getElementById("demo8").innerHTML = children;
+</script>
+
 </body>
 
 </html>
