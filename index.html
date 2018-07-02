@@ -11,25 +11,54 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-     -->
+    
      <script src="js/main.js"></script>
 </head>
 <!-- header ends here -->
 
 <body>
-    <h2>javascript test</h2>
-    <p id=demo> </p>
+   
+    <!-- https://www.w3schools.com/js/js_arrays.asp -->
 
-    <!-- <script>
+<p id="demo"></p> 
 
-    var a = 10;
-    var b = 20;
-    var c = a + b;
-    document.getElementById("demo").innerHTML = c;
-    </script> -->
+<script>
+var cars=["Saab","Volvo","BMW"]
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+<p id="demo1"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo1").innerHTML = cars[1];
+</script>
+
+<p id="demo2"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+cars[0]="Opel"
+document.getElementById("demo2").innerHTML = cars;
+</script>
+
+<p id="demo3"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+var len =cars.length;
+document.getElementById("demo3").innerHTML = len;
+</script>
+
+<p id="demo4"></p> 
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+var x = cars.length;
+cars[x]="Mercedes";
+document.getElementById("demo4").innerHTML = cars;
+</script>
+<!-- ends here -->
 </body>
 
 </html>

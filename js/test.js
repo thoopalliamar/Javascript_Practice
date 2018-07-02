@@ -27,3 +27,21 @@ console.log(x);
 console.log(y);
 console.log(z);
 
+//using for to generate elements
+
+var squares = Array(5);
+for (var i = 0; i < squares.length; i++) {
+  squares[i] = i * i;
+}
+console.log('squares = ' + squares);
+
+// The following are equivalent
+var x = ['a', 'b', 'c'];
+var y = Array('a', 'b', 'c');
+var z = new Array('a', 'b', 'c');
+console.log(x);
+console.log(y);
+console.log(z);   
+
+
+
